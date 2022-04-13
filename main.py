@@ -26,7 +26,7 @@ if __name__ == "__main__":
         "api19-core-c-alisg.tiktokv.com"
     ]
     r = requests.Session()
-    threads = 500
+    threads = 5000
     print('Sending Shares to:', link_id)
     try:
         if "vm.tiktok.com" in link_id or "vt.tiktok.com" in link_id:
